@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviliani — Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Aviliani Fadira Almaasyah — Semester 8 student specializing in ERP systems, desktop applications, and web development.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-text">
+                <span class="preloader-letter">A</span>
+                <span class="preloader-letter">V</span>
+                <span class="preloader-letter">I</span>
+                <span class="preloader-letter">L</span>
+                <span class="preloader-letter">I</span>
+                <span class="preloader-letter">A</span>
+                <span class="preloader-letter">N</span>
+                <span class="preloader-letter">I</span>
+            </div>
+            <div class="preloader-bar">
+                <div class="preloader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursorFollower"></div>
+
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-inner">
+            <a href="#" class="nav-logo" id="navLogo">
+                <span class="logo-text">arumachine</span>
+                <span class="logo-dot"></span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero" class="nav-link" data-index="01">Home</a></li>
+                <li><a href="#about" class="nav-link" data-index="02">About</a></li>
+                <li><a href="#projects" class="nav-link" data-index="03">Projects</a></li>
+                <li><a href="#skills" class="nav-link" data-index="04">Skills</a></li>
+                <li><a href="#contact" class="nav-link" data-index="05">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul class="mobile-menu-list">
+            <li><a href="#hero" class="mobile-link">Home</a></li>
+            <li><a href="#about" class="mobile-link">About</a></li>
+            <li><a href="#projects" class="mobile-link">Projects</a></li>
+            <li><a href="#skills" class="mobile-link">Skills</a></li>
+            <li><a href="#contact" class="mobile-link">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-grid"></div>
+        <div class="hero-gradient-orb hero-orb-1"></div>
+        <div class="hero-gradient-orb hero-orb-2"></div>
+
+        <div class="hero-content">
+            <div class="hero-top">
+                <div class="hero-tag reveal-text">
+                    <span class="tag-line"></span>
+                    <span>Portfolio — 2026</span>
+                </div>
+            </div>
+
+            <div class="hero-title-wrap">
+                <h1 class="hero-title">
+                    <span class="title-line">
+                        <span class="title-word reveal-up">Aviliani</span>
+                    </span>
+                    <span class="title-line">
+                        <span class="title-word reveal-up" style="animation-delay: 0.15s">Fadira</span>
+                    </span>
+                    <span class="title-line title-line-accent">
+                        <span class="title-word reveal-up" style="animation-delay: 0.3s">Almaasyah</span>
+                    </span>
+                </h1>
+            </div>
+
+            <div class="hero-info">
+                <div class="hero-desc reveal-text" style="animation-delay: 0.5s">
+                    <p>Mahasiswa Semester 8 — Passionate about building impactful software solutions, from
+                        enterprise-level ERP modifications to network tracking systems and quality assurance web
+                        applications.</p>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item reveal-text" style="animation-delay: 0.6s">
+                        <span class="stat-number" data-count="3">0</span>
+                        <span class="stat-label">Main Projects</span>
+                    </div>
+                    <div class="stat-item reveal-text" style="animation-delay: 0.7s">
+                        <span class="stat-number" data-count="8">0</span>
+                        <span class="stat-label">Semester</span>
+                    </div>
+                    <div class="stat-item reveal-text" style="animation-delay: 0.8s">
+                        <span class="stat-number" data-count="2">0</span>
+                        <span class="stat-label">Languages</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-scroll-indicator">
+            <span>Scroll to explore</span>
+            <div class="scroll-line-anim">
+                <div class="scroll-dot"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="section-label">
+            <span class="label-index">02</span>
+            <span class="label-line"></span>
+            <span class="label-text">About Me</span>
+        </div>
+
+        <div class="about-grid">
+            <div class="about-left">
+                <h2 class="about-heading scroll-reveal">
+                    <span class="heading-line">Building digital</span>
+                    <span class="heading-line heading-accent">solutions</span>
+                    <span class="heading-line">that matter.</span>
+                </h2>
+            </div>
+            <div class="about-right">
+                <div class="about-text scroll-reveal">
+                    <p>Saya Aviliani Fadira Almaasyah, mahasiswa semester 8 yang memiliki passion dalam pengembangan
+                        software. Dari modifikasi sistem ERP enterprise hingga pembuatan aplikasi tracking dan website
+                        quality control.</p>
+                    <p>Keahlian saya mencakup pengembangan desktop application menggunakan VB.NET dan web development.
+                        Saya percaya bahwa setiap baris kode harus membawa dampak nyata bagi pengguna.</p>
+                </div>
+                <div class="about-details scroll-reveal">
+                    <div class="detail-item">
+                        <span class="detail-label">Focus</span>
+                        <span class="detail-value">Desktop & Web Development</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Tech Stack</span>
+                        <span class="detail-value">VB.NET, HTML/CSS/JS, SQL</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Status</span>
+                        <span class="detail-value">Semester 8 Student</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Horizontal Marquee -->
+    <div class="marquee-section">
+        <div class="marquee-track">
+            <div class="marquee-content">
+                <span>VB.NET</span>
+                <span class="marquee-dot">◆</span>
+                <span>ERP Systems</span>
+                <span class="marquee-dot">◆</span>
+                <span>Web Development</span>
+                <span class="marquee-dot">◆</span>
+                <span>Quality Tracking</span>
+                <span class="marquee-dot">◆</span>
+                <span>Desktop Apps</span>
+                <span class="marquee-dot">◆</span>
+                <span>MAC ID Tracking</span>
+                <span class="marquee-dot">◆</span>
+                <span>VB.NET</span>
+                <span class="marquee-dot">◆</span>
+                <span>ERP Systems</span>
+                <span class="marquee-dot">◆</span>
+                <span>Web Development</span>
+                <span class="marquee-dot">◆</span>
+                <span>Quality Tracking</span>
+                <span class="marquee-dot">◆</span>
+                <span>Desktop Apps</span>
+                <span class="marquee-dot">◆</span>
+                <span>MAC ID Tracking</span>
+                <span class="marquee-dot">◆</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="section-label">
+            <span class="label-index">03</span>
+            <span class="label-line"></span>
+            <span class="label-text">Featured Work</span>
+        </div>
+
+        <!-- Project 1 -->
+        <div class="project-item scroll-reveal" id="project-erp">
+            <div class="project-number">01</div>
+            <div class="project-content">
+                <div class="project-info">
+                    <div class="project-tags">
+                        <span class="project-tag">VB.NET</span>
+                        <span class="project-tag">ERP</span>
+                        <span class="project-tag">Desktop</span>
+                    </div>
+                    <h3 class="project-title">
+                        <span class="project-title-line">Modifikasi Desktop</span>
+                        <span class="project-title-line project-title-accent">Aplikasi ERP</span>
+                    </h3>
+                    <p class="project-desc">Melakukan modifikasi dan pengembangan fitur pada aplikasi ERP (Enterprise
+                        Resource Planning) berbasis VB.NET. Proyek mencakup optimasi modul inventory, integrasi
+                        reporting, dan peningkatan user interface untuk workflow yang lebih efisien.</p>
+                    <div class="project-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Type</span>
+                            <span class="meta-value">Desktop Application</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Tech</span>
+                            <span class="meta-value">VB.NET, SQL Server</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Role</span>
+                            <span class="meta-value">Full Development</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-image-wrap">
+                    <div class="project-image-inner">
+                        <img src="assets/erp_application.png" alt="ERP Desktop Application" class="project-img">
+                    </div>
+                    <div class="project-image-overlay"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-item scroll-reveal" id="project-macid">
+            <div class="project-number">02</div>
+            <div class="project-content project-content-reverse">
+                <div class="project-info">
+                    <div class="project-tags">
+                        <span class="project-tag">VB.NET</span>
+                        <span class="project-tag">Networking</span>
+                        <span class="project-tag">Tracking</span>
+                    </div>
+                    <h3 class="project-title">
+                        <span class="project-title-line">MAC ID</span>
+                        <span class="project-title-line project-title-accent">Tracking App</span>
+                    </h3>
+                    <p class="project-desc">Mengembangkan aplikasi VB.NET untuk tracking dan monitoring MAC Address
+                        perangkat dalam jaringan. Fitur utama meliputi device identification, real-time monitoring, dan
+                        history log untuk keperluan audit dan keamanan jaringan.</p>
+                    <div class="project-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Type</span>
+                            <span class="meta-value">Desktop Application</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Tech</span>
+                            <span class="meta-value">VB.NET, Network API</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Role</span>
+                            <span class="meta-value">Lead Developer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-image-wrap">
+                    <div class="project-image-inner">
+                        <img src="assets/macid_tracking.png" alt="MAC ID Tracking Application" class="project-img">
+                    </div>
+                    <div class="project-image-overlay"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-item scroll-reveal" id="project-quality">
+            <div class="project-number">03</div>
+            <div class="project-content">
+                <div class="project-info">
+                    <div class="project-tags">
+                        <span class="project-tag">Web</span>
+                        <span class="project-tag">Quality Control</span>
+                        <span class="project-tag">Dashboard</span>
+                    </div>
+                    <h3 class="project-title">
+                        <span class="project-title-line">Quality Tracking</span>
+                        <span class="project-title-line project-title-accent">Website</span>
+                    </h3>
+                    <p class="project-desc">Membangun website quality tracking untuk monitoring dan pelaporan kualitas
+                        produksi. Dashboard interaktif dengan visualisasi data, defect tracking, inspection reports, dan
+                        KPI indicators untuk memastikan standar kualitas terpenuhi.</p>
+                    <div class="project-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Type</span>
+                            <span class="meta-value">Web Application</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Tech</span>
+                            <span class="meta-value">HTML, CSS, JavaScript</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Role</span>
+                            <span class="meta-value">Full-Stack Dev</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-image-wrap">
+                    <div class="project-image-inner">
+                        <img src="assets/quality_tracking.png" alt="Quality Tracking Website" class="project-img">
+                    </div>
+                    <div class="project-image-overlay"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="section-label">
+            <span class="label-index">04</span>
+            <span class="label-line"></span>
+            <span class="label-text">Skills & Expertise</span>
+        </div>
+
+        <div class="skills-grid">
+            <div class="skill-card scroll-reveal" id="skill-vbnet">
+                <div class="skill-icon">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                        <rect x="6" y="6" width="36" height="36" rx="4" stroke="currentColor" stroke-width="2" />
+                        <path d="M14 18L20 30L26 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M28 18H32C34.2091 18 36 19.7909 36 22V22C36 24.2091 34.2091 26 32 26H28V18Z"
+                            stroke="currentColor" stroke-width="2" />
+                        <path d="M28 26H32C34.2091 26 36 27.7909 36 30V30C36 30 34.2091 30 32 30H28V26Z"
+                            stroke="currentColor" stroke-width="2" />
+                    </svg>
+                </div>
+                <h3 class="skill-name">VB.NET</h3>
+                <p class="skill-desc">Desktop application development, Windows Forms, database integration</p>
+                <div class="skill-level">
+                    <div class="skill-bar" data-width="90"></div>
+                </div>
+            </div>
+
+            <div class="skill-card scroll-reveal" id="skill-web">
+                <div class="skill-icon">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                        <path d="M16 18L10 24L16 30" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M32 18L38 24L32 30" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M27 14L21 34" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                </div>
+                <h3 class="skill-name">Web Development</h3>
+                <p class="skill-desc">HTML5, CSS3, JavaScript, responsive design, interactive dashboards</p>
+                <div class="skill-level">
+                    <div class="skill-bar" data-width="85"></div>
+                </div>
+            </div>
+
+            <div class="skill-card scroll-reveal" id="skill-database">
+                <div class="skill-icon">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                        <ellipse cx="24" cy="14" rx="14" ry="4" stroke="currentColor" stroke-width="2" />
+                        <path d="M10 14V24C10 26.2091 16.268 28 24 28C31.732 28 38 26.2091 38 24V14"
+                            stroke="currentColor" stroke-width="2" />
+                        <path d="M10 24V34C10 36.2091 16.268 38 24 38C31.732 38 38 36.2091 38 34V24"
+                            stroke="currentColor" stroke-width="2" />
+                    </svg>
+                </div>
+                <h3 class="skill-name">Database</h3>
+                <p class="skill-desc">SQL Server, data modeling, query optimization, stored procedures</p>
+                <div class="skill-level">
+                    <div class="skill-bar" data-width="80"></div>
+                </div>
+            </div>
+
+            <div class="skill-card scroll-reveal" id="skill-erp">
+                <div class="skill-icon">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                        <rect x="8" y="8" width="12" height="12" rx="2" stroke="currentColor" stroke-width="2" />
+                        <rect x="28" y="8" width="12" height="12" rx="2" stroke="currentColor" stroke-width="2" />
+                        <rect x="8" y="28" width="12" height="12" rx="2" stroke="currentColor" stroke-width="2" />
+                        <rect x="28" y="28" width="12" height="12" rx="2" stroke="currentColor" stroke-width="2" />
+                        <path d="M20 14H28M14 20V28M34 20V28M20 34H28" stroke="currentColor" stroke-width="2" />
+                    </svg>
+                </div>
+                <h3 class="skill-name">ERP Systems</h3>
+                <p class="skill-desc">Enterprise resource planning, module customization, business process</p>
+                <div class="skill-level">
+                    <div class="skill-bar" data-width="85"></div>
+                </div>
+            </div>
+
+            <div class="skill-card scroll-reveal" id="skill-networking">
+                <div class="skill-icon">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                        <circle cx="24" cy="12" r="4" stroke="currentColor" stroke-width="2" />
+                        <circle cx="12" cy="36" r="4" stroke="currentColor" stroke-width="2" />
+                        <circle cx="36" cy="36" r="4" stroke="currentColor" stroke-width="2" />
+                        <path d="M22 16L14 32M26 16L34 32M16 36H32" stroke="currentColor" stroke-width="2" />
+                    </svg>
+                </div>
+                <h3 class="skill-name">Networking</h3>
+                <p class="skill-desc">Network monitoring, MAC address tracking, device identification</p>
+                <div class="skill-level">
+                    <div class="skill-bar" data-width="75"></div>
+                </div>
+            </div>
+
+            <div class="skill-card scroll-reveal" id="skill-quality">
+                <div class="skill-icon">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                        <path d="M24 6L30 18L42 20L33 29L35 42L24 36L13 42L15 29L6 20L18 18L24 6Z" stroke="currentColor"
+                            stroke-width="2" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <h3 class="skill-name">Quality Assurance</h3>
+                <p class="skill-desc">Quality tracking systems, defect analysis, inspection reporting</p>
+                <div class="skill-level">
+                    <div class="skill-bar" data-width="80"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact-bg-text" aria-hidden="true">CONTACT</div>
+        <div class="contact-content">
+            <div class="section-label section-label-light">
+                <span class="label-index">05</span>
+                <span class="label-line"></span>
+                <span class="label-text">Get In Touch</span>
+            </div>
+
+            <h2 class="contact-heading scroll-reveal">
+                <span class="heading-line">Tertarik untuk</span>
+                <span class="heading-line heading-accent">berkolaborasi?</span>
+            </h2>
+
+            <p class="contact-desc scroll-reveal">Saya selalu terbuka untuk peluang baru dan kolaborasi menarik. Jangan
+                ragu untuk menghubungi saya.</p>
+
+            <div class="contact-links scroll-reveal">
+                <a href="mailto:aviliani@email.com" class="contact-link" id="contact-email">
+                    <span class="contact-link-label">Email</span>
+                    <span class="contact-link-value">aviliani@email.com</span>
+                    <span class="contact-link-arrow">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2" />
+                        </svg>
+                    </span>
+                </a>
+                <a href="https://linkedin.com" target="_blank" class="contact-link" id="contact-linkedin">
+                    <span class="contact-link-label">LinkedIn</span>
+                    <span class="contact-link-value">Aviliani Fadira</span>
+                    <span class="contact-link-arrow">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2" />
+                        </svg>
+                    </span>
+                </a>
+                <a href="https://github.com" target="_blank" class="contact-link" id="contact-github">
+                    <span class="contact-link-label">GitHub</span>
+                    <span class="contact-link-value">aviliani</span>
+                    <span class="contact-link-arrow">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2" />
+                        </svg>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-left">
+                <span class="footer-logo">AVI.</span>
+                <span class="footer-copy">© 2026 Aviliani. All rights reserved.</span>
+            </div>
+            <div class="footer-right">
+                <span class="footer-credit">Designed & Built with ❤️</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
